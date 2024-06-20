@@ -34,7 +34,7 @@ In this section, we solve the problem by modeling it and using the Neo-Hookean h
 # 3. Solution using UMAT subroutine
 Although it is recommended to use the UHYPER subroutine for hyperelastic materials and define the strain energy density and its derivatives in it, here I used the UMAT subroutine and defined the Cauchy stress tensor and the system Jacobian matrix, which is known as DDSDDE in this environment. The subroutine written in Fortran is placed in the file named 'CompresibleNeoHookean.for' in the repository. The inp files for the Simple Extension and Simple Shear cases, which use the written UMAT subroutine, are named 'NeoHookeanSimpleExtensionUMAT.inp' and 'NeoHookeanSimpleShearUMAT.inp', respectively, and are placed in the repository. After performing the analysis in this case, we also see that the resulting stress tensor is "completely consistent" with the analytical solution and the CAE solution.
 
-# Further development:
+# Collaboration
 I would be happy if someone could review and validate this written subroutine with other analytical Problems. It is said that in some other cases, such as bending, these two may not be compatible. I would be happy to inform me of the results of your reviews.
 sina.taghizadeh123@gmail.com
 
