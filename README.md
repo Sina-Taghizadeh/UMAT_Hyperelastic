@@ -39,4 +39,4 @@ I would be happy if someone could review and validate this written subroutine wi
 sina.taghizadeh123@gmail.com
 
 # Acknowledgments
-A large part of the Fortran code written for the Neo-Hookean material was inspired by the code written by Dr. Milad Vahidian, which can be found at https://mecademy.org/abaqus-subroutine/. For more information on this subroutine and other subroutines, you can refer to his free tutorials (in Persian) on this site.
+A large part of the Fortran code written for the Neo-Hookean material was inspired by the code written by Dr. Milad Vahidian, which can be found at https://mecademy.org/abaqus-subroutine/. For more information on this subroutine and other subroutines, you can refer to his tutorials (in Persian) on this site.
